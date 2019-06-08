@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Playfair Display", "Arial", sans-serif;
+    font-size: 14pt;
+    color: #575757;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-family: "Ubuntu", "Aerial" sans-serif;
+    font-size: 14pt;
+    color: #b19c71;
+    font-weight: normal;
+    text-transform: uppercase; 
+}
+
+h3 {
+    font-size: 22pt;
+    font-weight: 400;
+}
+
+p {
+    font-weight: normal;
+    text-align: justify;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+                                /* header and navigation */
+
+
+.main-header {
+    margin-top: 75px;   
+}
+
+.main-menu-list {
+    text-align: center;
+    list-style: none;
+}
+
+.main-menu-list li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.main-menu-list a {
+    font-size: 14pt;
+    color: #6d6d6d;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-menu-list a:hover,
+.main-menu-list a:focus {
+    color: #24bdff;
+}
+
+                                    /* content articles */
+
+
+.post-items-container {
+    margin-top: 105px;
+    font-size: 0;
+}
+
+.post-item {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    padding-bottom: 90px;
+}
+
+.post-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.post-item p {
+    font-size: 14pt;
+}
+
+
+                                /*button style*/
+
+.load-button {
+    margin: 60px auto;
+}
+
+.load-more-button {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid  rgb(98, 98, 98);
+    font-size: 20px;
+    color: #6d6d6d;
+    cursor: pointer;
+}
+
+.load-more-button:hover,
+.load-more-button:focus {
+    color: #24bdff;
+}
+ 
