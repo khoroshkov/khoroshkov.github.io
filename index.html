@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Homework. Module-04. | Nickolay Khoroshkov</title>
+    <title>Homework. Module-05. | Nickolay Khoroshkov</title>
     <link rel="stylesheet" href="./css/normalize.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap"
@@ -11,11 +11,14 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body class="container">
-    <header class="main-header clearfix">
-      <a href="#" class="logo">Mart</a>
-      <nav class="main-nav clearfix">
-        <ul class="main-menu-list clearfix">
+  <body class="wrapper">
+    <header class="main-header container">
+      <a href="#" class="logo"
+        ><img src="./img/logo_mart.png" width="78" height="21" alt="logo image"
+      /></a>
+
+      <nav class="main-nav">
+        <ul class="main-menu-list">
           <li class="main-menu-item">
             <a href="#" class="main-menu-link">home</a>
           </li>
@@ -39,170 +42,192 @@
     </header>
 
     <main class="main-content">
-      <div class="featured-products">
-        <section class="products">
-          <h2>Featured products</h2>
-          <ul class="product-items-list clearfix">
-            <li class="product-items">
+      <div class="slider-wrapper">
+        <div class="slider">
+          <ul class="slides">
+            <li class="slides-item">
               <img
-                src="./img/product item_1.jpg"
-                alt="women shoes"
-                height="322"
-                width="255"
+                src="./img/slide_picture_1.jpg"
+                alt="happy women walking"
+                height="600px"
+                width="1600px"
               />
-              <p class="product-item-name">Blue Tshirt</p>
-              <p class="product-item-price">$26</p>
+              <h3 class="slide-title">Affordable Paris tours</h3>
+              <p class="slide-discription">
+                City tours / Tour tickets / Tors guides
+              </p>
+            </li>
+          </ul>
+          <div class="buttons-wrapper container">
+            <button class="slider-ctrl slider-ctrl-prev"></button>
+            <button class="slider-ctrl slider-ctrl-next"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-wrapper">
+        <section class="products container">
+          <h2>New collection</h2>
+          <ul class="product-items-list">
+            <li class="product-items">
+              <div class="cover-card">
+                <ul class="card-button-items">
+                  <li class="cover-card-buttons">
+                    <button class="button-icon favorite">
+                      <span class="vissually-hidden">like</span>
+                    </button>
+                  </li>
+                  <li class="cover-card-buttons">
+                    <button class="button-icon share">
+                      <span class="vissually-hidden">share</span>
+                    </button>
+                  </li>
+                  <li class="cover-card-buttons">
+                    <button class="button-icon clock">
+                      <span class="vissually-hidden">clock</span>
+                    </button>
+                  </li>
+                </ul>
+                <button class="shopping-cart">
+                  <span class="vissually-hidden">Shopping cart</span
+                  ><span class="shopping-cart-text">add to cart</span>
+                </button>
+              </div>
+              <div class="img-wrapper">
+                <img
+                  src="./img/collection_image_1.jpg"
+                  alt="blue Tshirt"
+                  height="322"
+                  width="255"
+                />
+              </div>
+
+              <div class="cart-text-wrapper">
+                <span class="product-item-name">Blue Tshirt</span>
+                <span class="product-item-price">$26</span>
+              </div>
             </li>
             <li class="product-items">
-              <img
-                src="./img/product item_2.jpg"
-                alt="leather belt"
-                height="282"
-                width="255"
-              />
-              <p class="product-item-name">Woman Shirt</p>
-              <p class="product-item-price">$31</p>
+              <div class="cover-card">
+                <ul class="card-button-items">
+                  <li class="cover-card-buttons">
+                    <button class="button-icon favorite">
+                      <span class="vissually-hidden">like</span>
+                    </button>
+                  </li>
+                  <li class="cover-card-buttons">
+                    <button class="button-icon share">
+                      <span class="vissually-hidden">share</span>
+                    </button>
+                  </li>
+                  <li class="cover-card-buttons">
+                    <button class="button-icon clock">
+                      <span class="vissually-hidden">clock</span>
+                    </button>
+                  </li>
+                </ul>
+                <button class="shopping-cart">
+                  <span class="vissually-hidden">Shopping cart</span
+                  ><span class="shopping-cart-text">add to cart</span>
+                </button>
+              </div>
+              <div class="img-wrapper">
+                <img
+                  src="./img/collection_image_2.jpg"
+                  alt="women shirt"
+                  height="322"
+                  width="255"
+                />
+              </div>
+              <div class="cart-text-wrapper">
+                <span class="product-item-name">Woman Shirt</span>
+                <span class="product-item-price">$31</span>
+              </div>
             </li>
             <li class="product-items">
-              <img
-                src="./img/product item_3.jpg"
-                alt="hat"
-                height="282"
-                width="255"
-              />
-              <p class="product-item-name">Yellow Tshirt</p>
-              <p class="product-item-price">$21</p>
+              <div class="cover-card">
+                <ul class="card-button-items">
+                  <li class="cover-card-buttons">
+                    <button class="button-icon favorite">
+                      <span class="vissually-hidden">like</span>
+                    </button>
+                  </li>
+                  <li class="cover-card-buttons">
+                    <button class="button-icon share">
+                      <span class="vissually-hidden">share</span>
+                    </button>
+                  </li>
+                  <li class="cover-card-buttons">
+                    <button class="button-icon clock">
+                      <span class="vissually-hidden">clock</span>
+                    </button>
+                  </li>
+                </ul>
+                <button class="shopping-cart">
+                  <span class="vissually-hidden">Shopping cart</span
+                  ><span class="shopping-cart-text">add to cart</span>
+                </button>
+              </div>
+              <div class="img-wrapper">
+                <img
+                  src="./img/collection_image_3.jpg"
+                  alt="yellow Tshirt"
+                  height="322"
+                  width="255"
+                />
+              </div>
+              <div class="cart-text-wrapper">
+                <span class="product-item-name">Yellow Tshirt</span>
+                <span class="product-item-price">$21</span>
+              </div>
             </li>
             <li class="product-items">
-              <img
-                src="./img/product item_4.jpg"
-                alt="women bag"
-                height="282"
-                width="255"
-              />
-              <p class="product-item-name">Cool Lingerie</p>
-              <p class="product-item-price">$56</p>
-            </li>
-            <li class="product-items">
-              <img
-                src="./img/product item_5.jpg"
-                alt="black women bag"
-                height="282"
-                width="255"
-              />
-              <p class="product-item-name">Blue Tshirt</p>
-              <p class="product-item-price">$26</p>
-            </li>
-            <li class="product-items">
-              <img
-                src="./img/product item_6.jpg"
-                alt="women shoes"
-                height="282"
-                width="255"
-              />
-              <p class="product-item-name">Woman Shirt</p>
-              <p class="product-item-price">$31</p>
-            </li>
-            <li class="product-items">
-              <img
-                src="./img/product item_7.jpg"
-                alt="man shoes"
-                height="282"
-                width="255"
-              />
-              <p class="product-item-name">Yellow Tshirt</p>
-              <p class="product-item-price">$21</p>
-            </li>
-            <li class="product-items">
-              <img
-                src="./img/product item_8.jpg"
-                alt="women glasses"
-                height="282"
-                width="255"
-              />
-              <p class="product-item-name">Cool Lingerie</p>
-              <p class="product-item-price">$56</p>
+              <div class="cover-card">
+                <ul class="card-button-items">
+                  <li class="cover-card-buttons">
+                    <button class="button-icon favorite">
+                      <span class="vissually-hidden">like</span>
+                    </button>
+                  </li>
+                  <li class="cover-card-buttons">
+                    <button class="button-icon share">
+                      <span class="vissually-hidden">share</span>
+                    </button>
+                  </li>
+                  <li class="cover-card-buttons">
+                    <button class="button-icon clock">
+                      <span class="vissually-hidden">clock</span>
+                    </button>
+                  </li>
+                </ul>
+                <button class="shopping-cart">
+                  <span class="vissually-hidden">Shopping cart</span
+                  ><span class="shopping-cart-text">add to cart</span>
+                </button>
+              </div>
+              <div class="img-wrapper">
+                <img
+                  src="./img/collection_image_4.jpg"
+                  alt="cool lingerie"
+                  height="322"
+                  width="255"
+                />
+              </div>
+              <div class="cart-text-wrapper">
+                <span class="product-item-name">Cool Lingerie</span>
+                <span class="product-item-price">$56</span>
+              </div>
             </li>
           </ul>
         </section>
       </div>
 
-      <div class="blog">
-        <section class="blog-posts">
-          <h2>Latest News</h2>
-          <ul class="blog-posts-list clearfix">
-            <li class="blog-post-item">
-              <img
-                src="./img/blog post_1.jpg"
-                alt="woman hand with ipad"
-                height="260"
-                width="350"
-              />
-              <h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-                obcaecati?
-              </h3>
-              <p class="blog-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                mollitia cupiditate explicabo obcaecati corrupti amet. Dolore
-                harum eveniet vitae commodi voluptatem inventore consequatur
-                corrupti, eum in quibusdam.
-              </p>
-              <div class="read-button">
-                <button type="button" class="read-more-button">
-                  Read More
-                </button>
-              </div>
-            </li>
-            <li class="blog-post-item">
-              <img
-                src="./img/blog post_2.jpg"
-                alt="two girls studying"
-                height="260"
-                width="350"
-              />
-              <h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-                obcaecati?
-              </h3>
-              <p class="blog-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                mollitia cupiditate explicabo obcaecati corrupti amet. Dolore
-                harum eveniet vitae commodi voluptatem inventore consequatur
-                corrupti, eum in quibusdam.
-              </p>
-              <div class="read-button">
-                <button type="button" class="read-more-button">
-                  Read More
-                </button>
-              </div>
-            </li>
-            <li class="blog-post-item">
-              <img
-                src="./img/blog post_3.jpg"
-                alt="bus on the city"
-                height="260"
-                width="350"
-              />
-              <h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-                obcaecati?
-              </h3>
-              <p class="blog-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                mollitia cupiditate explicabo obcaecati corrupti amet. Dolore
-                harum eveniet vitae commodi voluptatem inventore consequatur
-                corrupti, eum in quibusdam.
-              </p>
-              <div class="read-button">
-                <button type="button" class="read-more-button">
-                  Read More
-                </button>
-              </div>
-            </li>
-          </ul>
-        </section>
-      </div>
+      <footer class="main-footer">
+        <p class="legal-info">
+          All rights reserved © Dokan | Designed
+          <a href="#" target="_blank" rel="nofollow noopener">ThemenGraph</a>
+        </p>
+      </footer>
     </main>
   </body>
 </html>
