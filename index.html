@@ -2,232 +2,208 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Homework. Module-05. | Nickolay Khoroshkov</title>
+    <title>Homework. Module-06. | Nickolay Khoroshkov</title>
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body class="wrapper">
-    <header class="main-header container">
-      <a href="#" class="logo"
-        ><img src="./img/logo_mart.png" width="78" height="21" alt="logo image"
-      /></a>
+  <body>
+    <div class="container">
+      <header class="site-navigation">
+        <a href="#" class="logo">MoGo</a>
 
-      <nav class="main-nav">
-        <ul class="main-menu-list">
-          <li class="main-menu-item">
-            <a href="#" class="main-menu-link">home</a>
-          </li>
-          <li class="main-menu-item">
-            <a href="#" class="main-menu-link">about us</a>
-          </li>
-          <li class="main-menu-item">
-            <a href="#" class="main-menu-link">page</a>
-          </li>
-          <li class="main-menu-item">
-            <a href="#" class="main-menu-link">shop</a>
-          </li>
-          <li class="main-menu-item">
-            <a href="#" class="main-menu-link">blog</a>
-          </li>
-          <li class="main-menu-item">
-            <a href="#" class="main-menu-link">contact us</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main class="main-content">
-      <div class="slider-wrapper">
-        <div class="slider">
-          <ul class="slides">
-            <li class="slides-item">
-              <img
-                src="./img/slide_picture_1.jpg"
-                alt="happy women walking"
-                height="600px"
-                width="1600px"
-              />
-              <h3 class="slide-title">Affordable Paris tours</h3>
-              <p class="slide-discription">
-                City tours / Tour tickets / Tors guides
-              </p>
+        <nav class="main-nav">
+          <ul class="main-menu-list">
+            <li class="main-menu-item">
+              <a href="#" class="main-menu-link">about</a>
+            </li>
+            <li class="main-menu-item">
+              <a href="#" class="main-menu-link">service</a>
+            </li>
+            <li class="main-menu-item">
+              <a href="#" class="main-menu-link">work</a>
+            </li>
+            <li class="main-menu-item">
+              <a href="#" class="main-menu-link">blog</a>
+            </li>
+            <li class="main-menu-item">
+              <a href="#" class="main-menu-link">contact</a>
             </li>
           </ul>
-          <div class="buttons-wrapper container">
-            <button class="slider-ctrl slider-ctrl-prev"></button>
-            <button class="slider-ctrl slider-ctrl-next"></button>
-          </div>
-        </div>
-      </div>
+        </nav>
+      </header>
 
-      <div class="section-wrapper">
-        <section class="products container">
-          <h2>New collection</h2>
-          <ul class="product-items-list">
-            <li class="product-items">
-              <div class="cover-card">
-                <ul class="card-button-items">
-                  <li class="cover-card-buttons">
-                    <button class="button-icon favorite">
-                      <span class="vissually-hidden">like</span>
-                    </button>
-                  </li>
-                  <li class="cover-card-buttons">
-                    <button class="button-icon share">
-                      <span class="vissually-hidden">share</span>
-                    </button>
-                  </li>
-                  <li class="cover-card-buttons">
-                    <button class="button-icon clock">
-                      <span class="vissually-hidden">clock</span>
-                    </button>
-                  </li>
-                </ul>
-                <button class="shopping-cart">
-                  <span class="vissually-hidden">Shopping cart</span
-                  ><span class="shopping-cart-text">add to cart</span>
-                </button>
-              </div>
-              <div class="img-wrapper">
-                <img
-                  src="./img/collection_image_1.jpg"
-                  alt="blue Tshirt"
-                  height="322"
-                  width="255"
-                />
-              </div>
-
-              <div class="cart-text-wrapper">
-                <span class="product-item-name">Blue Tshirt</span>
-                <span class="product-item-price">$26</span>
-              </div>
+      <main>
+        <section class="services">
+          <h2>We work with</h2>
+          <h3>Amazing services</h3>
+          <ul class="services-list">
+            <li class="sirvice-item clock-icon">
+              <a href="#">
+                <h4 class="service-title">photography</h4>
+                <p class="service-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                  error aut ad.
+                </p>
+              </a>
             </li>
-            <li class="product-items">
-              <div class="cover-card">
-                <ul class="card-button-items">
-                  <li class="cover-card-buttons">
-                    <button class="button-icon favorite">
-                      <span class="vissually-hidden">like</span>
-                    </button>
-                  </li>
-                  <li class="cover-card-buttons">
-                    <button class="button-icon share">
-                      <span class="vissually-hidden">share</span>
-                    </button>
-                  </li>
-                  <li class="cover-card-buttons">
-                    <button class="button-icon clock">
-                      <span class="vissually-hidden">clock</span>
-                    </button>
-                  </li>
-                </ul>
-                <button class="shopping-cart">
-                  <span class="vissually-hidden">Shopping cart</span
-                  ><span class="shopping-cart-text">add to cart</span>
-                </button>
-              </div>
-              <div class="img-wrapper">
-                <img
-                  src="./img/collection_image_2.jpg"
-                  alt="women shirt"
-                  height="322"
-                  width="255"
-                />
-              </div>
-              <div class="cart-text-wrapper">
-                <span class="product-item-name">Woman Shirt</span>
-                <span class="product-item-price">$31</span>
-              </div>
+            <li class="sirvice-item line-graph-icon">
+              <a href="">
+                <h4 class="service-title">web design</h4>
+                <p class="service-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                  error aut ad. lorem15
+                </p>
+              </a>
             </li>
-            <li class="product-items">
-              <div class="cover-card">
-                <ul class="card-button-items">
-                  <li class="cover-card-buttons">
-                    <button class="button-icon favorite">
-                      <span class="vissually-hidden">like</span>
-                    </button>
-                  </li>
-                  <li class="cover-card-buttons">
-                    <button class="button-icon share">
-                      <span class="vissually-hidden">share</span>
-                    </button>
-                  </li>
-                  <li class="cover-card-buttons">
-                    <button class="button-icon clock">
-                      <span class="vissually-hidden">clock</span>
-                    </button>
-                  </li>
-                </ul>
-                <button class="shopping-cart">
-                  <span class="vissually-hidden">Shopping cart</span
-                  ><span class="shopping-cart-text">add to cart</span>
-                </button>
-              </div>
-              <div class="img-wrapper">
-                <img
-                  src="./img/collection_image_3.jpg"
-                  alt="yellow Tshirt"
-                  height="322"
-                  width="255"
-                />
-              </div>
-              <div class="cart-text-wrapper">
-                <span class="product-item-name">Yellow Tshirt</span>
-                <span class="product-item-price">$21</span>
-              </div>
+            <li class="sirvice-item computer-icon">
+              <a href="">
+                <h4 class="service-title">creativity</h4>
+                <p class="service-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                  error aut ad.
+                </p>
+              </a>
             </li>
-            <li class="product-items">
-              <div class="cover-card">
-                <ul class="card-button-items">
-                  <li class="cover-card-buttons">
-                    <button class="button-icon favorite">
-                      <span class="vissually-hidden">like</span>
-                    </button>
-                  </li>
-                  <li class="cover-card-buttons">
-                    <button class="button-icon share">
-                      <span class="vissually-hidden">share</span>
-                    </button>
-                  </li>
-                  <li class="cover-card-buttons">
-                    <button class="button-icon clock">
-                      <span class="vissually-hidden">clock</span>
-                    </button>
-                  </li>
-                </ul>
-                <button class="shopping-cart">
-                  <span class="vissually-hidden">Shopping cart</span
-                  ><span class="shopping-cart-text">add to cart</span>
-                </button>
-              </div>
-              <div class="img-wrapper">
-                <img
-                  src="./img/collection_image_4.jpg"
-                  alt="cool lingerie"
-                  height="322"
-                  width="255"
-                />
-              </div>
-              <div class="cart-text-wrapper">
-                <span class="product-item-name">Cool Lingerie</span>
-                <span class="product-item-price">$56</span>
-              </div>
+            <li class="sirvice-item book-icon">
+              <a href="">
+                <h4 class="service-title">seo</h4>
+                <p class="service-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                  error aut ad.
+                </p>
+              </a>
+            </li>
+            <li class="sirvice-item home-icon">
+              <a href="">
+                <h4 class="service-title">css/html</h4>
+                <p class="service-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                  error aut ad.
+                </p>
+              </a>
+            </li>
+            <li class="sirvice-item digital-icon">
+              <a href="">
+                <h4 class="service-title">digital</h4>
+                <p class="service-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                  error aut ad.
+                </p>
+              </a>
             </li>
           </ul>
         </section>
-      </div>
+
+        <section class="team">
+          <h2>Who we are</h2>
+          <h3>Meet our team</h3>
+          <p class="about-team">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            doloribus, sed libero quaerat rerum saepe et porro corporis quasi
+            laborum.
+          </p>
+          <ul class="team-list">
+            <li class="team-list-item">
+              <div class="hover-card team-member-1">
+                <ul class="card-button-items">
+                  <li class="hover-card-buttons">
+                    <button class="button-icon facebook"></button>
+                  </li>
+                  <li class="hover-card-buttons">
+                    <button class="button-icon twitter"></button>
+                  </li>
+                  <li class="hover-card-buttons">
+                    <button class="button-icon pinterest"></button>
+                  </li>
+                  <li class="hover-card-buttons">
+                    <button class="button-icon instagram"></button>
+                  </li>
+                </ul>
+              </div>
+              <img
+                src="./img/portrait-1.jpg"
+                alt="portrait image"
+                width="380"
+                height="470"
+              />
+              <p class="team-name">Matthew Dix</p>
+              <p class="team-position">Graphic design</p>
+            </li>
+            <li class="team-list-item">
+              <div class="hover-card team-member-2">
+                <ul class="card-button-items">
+                  <li class="hover-card-buttons">
+                    <button class="button-icon facebook"></button>
+                  </li>
+                  <li class="hover-card-buttons">
+                    <button class="button-icon twitter"></button>
+                  </li>
+                  <li class="hover-card-buttons">
+                    <button class="button-icon pinterest"></button>
+                  </li>
+                  <li class="hover-card-buttons">
+                    <button class="button-icon instagram"></button>
+                  </li>
+                </ul>
+              </div>
+              <img
+                src="./img/portrait-2.jpg"
+                alt="portrait image"
+                width="380"
+                height="470"
+              />
+              <p class="team-name">Christopher Campbell</p>
+              <p class="team-position">Branding /UX design</p>
+            </li>
+            <li class="team-list-item">
+              <div class="hover-card team-member-3">
+                <ul class="card-button-items">
+                  <li class="hover-card-buttons">
+                    <button class="button-icon facebook"></button>
+                  </li>
+                  <li class="hover-card-buttons">
+                    <button class="button-icon twitter"></button>
+                  </li>
+                  <li class="hover-card-buttons">
+                    <button class="button-icon pinterest"></button>
+                  </li>
+                  <li class="hover-card-buttons">
+                    <button class="button-icon instagram"></button>
+                  </li>
+                </ul>
+              </div>
+              <img
+                src="./img/portrait-3.jpg"
+                alt="portrait image"
+                width="380"
+                height="470"
+              />
+              <p class="team-name">Michael Fertig</p>
+              <p class="team-position">Developer</p>
+            </li>
+          </ul>
+        </section>
+      </main>
 
       <footer class="main-footer">
         <p class="legal-info">
-          All rights reserved © Dokan | Designed
-          <a href="#" target="_blank" rel="nofollow noopener">ThemenGraph</a>
+          2019 © MoGo free PSD templete by
+          <a href="#" target="_blank" rel="nofollow noopener">Laaqiq</a>
         </p>
+        <div class="email-form">
+          <form>
+            <input
+              class="email-field"
+              name="email"
+              type="email"
+              placeholder="Your email..."
+            />
+            <input class="subscribe-button" type="submit" value="Subscribe" />
+          </form>
+        </div>
       </footer>
-    </main>
+    </div>
   </body>
 </html>
