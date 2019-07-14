@@ -67,7 +67,6 @@ img {
 .login-menu button:focus {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
-    transition: 0.1s linear;
 }
 
 .logo {
@@ -235,7 +234,7 @@ img {
     }
 
     .header-wraper img {
-        max-width: 768px;
+        min-width: 100%;
         height: 700px;
     }
 
