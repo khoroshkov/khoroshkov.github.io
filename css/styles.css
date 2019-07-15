@@ -19,41 +19,48 @@ img {
 .container {
     width: 320px;
     margin: 0 auto;
+    padding: 0;
 }
+
 
 /* header */
 
 .header-wraper {
     height: 540px;
-    position: relative;
+    background-image: url(../img/Background_photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
     margin-bottom: 72px;
+    box-shadow:0 0 0 700px rgba(0, 0, 0, .15) inset;
 }
 
-.header-wraper img {
-    max-width: 320px;
-    height: 540px;
-    object-fit: cover;
-    filter: brightness(.8) contrast(120%);
+.main-header {
+    min-height: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header {
+    min-height: 190px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 .login-menu {
     display: flex;
-    width: 172px;
-    height: 36px;
+    width: 180px;
+    height: 40px;
     justify-content: space-between;
-    position: absolute;
-    top: 40px;
-    left: 70px;
     list-style-type: none;
 }
 
-.login-menu li {
-    display: flex;
-    
-}
-
 .login-menu button {
-    width: 84px;
+    width: 90px;
     height: 40px;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
@@ -70,10 +77,6 @@ img {
 }
 
 .logo {
-    display: inline-block;
-    position: absolute;
-    top: 175px;
-    left: 73px;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -82,12 +85,10 @@ img {
 }
 
 .text-wraper {
-    display: inline-flex;
+    display: flex;
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    top: 228px;
     min-height: 180px;
 }
 
@@ -132,12 +133,9 @@ img {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    width: 220px;
+    max-width: 220px;
     margin: 18px auto 28px auto;
     text-decoration: none;
-}
-
-.partners-list {
     list-style: none;
 }
 
@@ -147,6 +145,7 @@ img {
     height: 120px;
     margin: 18px auto 18px auto;
 }
+
 .social-icon {
     display: inline-block;
     width: 40px;
@@ -218,38 +217,52 @@ img {
 
 /* media */
 
-@media (max-width: 768) {
+@media (min-width: 320px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    
+    .login-menu {
+        margin-top: 30px;
+    }
     
 }
 
 @media (min-width: 768px) {
     .container {
-        width: 768px;
-        margin: 0 auto;
+        width: 100%;
+     }
+
+    .menu-header {
+        flex-flow: row-reverse;
+        width: 660px;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+
+    .main-header {
+        min-height: 480px;
     }
 
     .header-wraper {
         height: 700px;
-        
-    }
-
-    .header-wraper img {
-        min-width: 100%;
-        height: 700px;
-    }
-
-    .login-menu {
-       left: 540px;
     }
 
     .logo {
-        top: 52px;
+        padding-top: 15px;
     }
 
     .text-wraper {
         width: 500px;
         min-height: 240px;
-        left: 130px;
     }
 
     .header-title {
@@ -266,7 +279,7 @@ img {
 
     .partners-list {
         flex-flow: row wrap;
-        width: 492px;
+        max-width: 492px;
         justify-content: space-between;
     }
 
@@ -279,37 +292,29 @@ img {
     }
 }
 
-
-@media (min-width: 1440px) {
+@media (min-width: 769px) and (max-width: 1439px) {
     .container {
         width: 100%;
         margin: 0 auto;
     }
+}
 
-    .header-wraper img {
-        min-width: 100%;
+@media (min-width: 1440px) {
+    .container {
+        width: 100%;
     }
 
-    .login-menu {
-        left: 1030px;
-     }
+    .menu-header {
+        min-width: 940px;
+    }
 
     .login-menu button {
         cursor: pointer;
     }
- 
-    .logo {
-        left:260px;
-     }
-
-    .text-wraper {
-        left: 470px;
-    }
 
     .partners-list {
-        flex-flow: row wrap;
-        width: 940px;
-        justify-content: space-between;
+       flex-flow: row wrap;
+       max-width: 940px;
     }
 
     .search-button,
