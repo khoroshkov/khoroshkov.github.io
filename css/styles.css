@@ -226,14 +226,9 @@ img {
 
 
 @media (min-width: 320px) and (max-width: 767px) {
-    .container {
-        width: 100%;
-    }
-    
     .login-menu {
         margin-top: 30px;
     }
-    
 }
 
 @media (min-width: 768px) {
@@ -284,11 +279,19 @@ img {
     }
 
     .partner-item {
-        width: 200px;
+        width: 220px;
     }
 
     .search-button-bottom {
         width: 194px;
+    }
+
+    .order-2 {
+        order: 3;
+    }
+
+    .order-4 {
+        order: 4;
     }
 }
 
@@ -314,7 +317,7 @@ img {
 
     .partners-list {
        flex-flow: row wrap;
-       max-width: 940px;
+       max-width: 942px;
     }
 
     .search-button,
