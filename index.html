@@ -5,105 +5,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Homework - 08 | Nickolay Khoroshkov</title>
+    <title>Homework - 09 | Nickolay Khoroshkov</title>
   </head>
   <body>
-    <div class="container">
-      <div class="header-wraper">
-        <header class="main-header">
-          <div class="menu-header">
-            <ul class="login-menu">
-              <li><button type="button">Log in</button></li>
-              <li><button type="button">Sign up</button></li>
-            </ul>
-            <a href="#" class="logo">URLAUBSGLÜCK</a>
+    <div class="container-fluid wraper">
+      <div class="container">
+        <div class="row header-wraper">
+          <div class="col-12">
+            <div class="row justify-content-md-between pt-5">
+              <div
+                class="col-12 col-md-5 text-center mb-5 d-flex justify-content-center col-lg-3"
+              >
+                <button type="button" class="menu-button">Log in</button>
+                <button type="button" class="menu-button">Sign up</button>
+              </div>
+              <div
+                class="col-12 col-md-4 order-md-first justify-content-center mb-5"
+              >
+                <a class="logo" href="#"
+                  ><img src="./img/logo.png" alt="logo"
+                /></a>
+              </div>
+            </div>
           </div>
-          <div class="text-wraper">
+        </div>
+        <div class="text-wraper row flex-column justify-content-between">
+          <div class="col-12">
             <h2 class="header-title">Share your holiday dreams</h2>
-            <h3 class="header-text">
-              And find the perfect partner to fullfill it
-            </h3>
-            <button type="button" class="search-button">
-              Find your holiday partner
-            </button>
           </div>
-        </header>
+          <div class="row">
+            <div class="col-12">
+              <h3 class="header-text">
+                And find the perfect partner to fullfill it
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <button type="button" class="search-button">
+                Find your holiday partner
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <section class="main-section">
-        <h2 class="section-title">Meet a partner for your best holiday</h2>
-        <ul class="partners-list">
-          <li class="partner-item order-1">
-            <div class="img-wrapper">
-              <img
-                src="./img/Profile_phoro_1.jpg"
-                alt="profile portrait"
-                width="120"
-              />
-              <button type="button" class="social-icon tv-icon"></button>
-            </div>
-            <a href="#">
-              <h3 class="partner-name">Bradley Hunter</h3>
-              <p class="partner-info">
-                Based in Chicago. I love playing tennis and loud music
-              </p>
-            </a>
-          </li>
-          <li class="partner-item order-2">
-            <div class="img-wrapper">
-              <img
-                src="./img/Profile_phoro_3.jpg"
-                alt="profile portrait"
-                width="120"
-              />
-              <button type="submit" class="social-icon glass-icon"></button>
-            </div>
-            <a href="#">
-              <h3 class="partner-name">Lucas Marsha</h3>
-              <p class="partner-info">
-                I get my inspiration from nature and objects around me. I have a
-                passion to colours, typography and skateboards.
-              </p>
-            </a>
-          </li>
-          <li class="partner-item order-3">
-            <div class="img-wrapper">
-              <img
-                src="./img/Profile_phoro_2.jpg"
-                alt="profile portrait"
-                width="120"
-              />
-              <button type="submit" class="social-icon cup-icon"></button>
-            </div>
-            <a href="#">
-              <h3 class="partner-name">Heather Walker</h3>
-              <p class="partner-info">
-                I'm a happy person that loves cats and climbing on mountains.
-              </p>
-            </a>
-          </li>
-          <li class="partner-item order-4">
-            <div class="img-wrapper">
-              <img
-                src="./img/Profile_phoro_4.jpg"
-                alt="profile portrait"
-                width="120"
-              />
-              <button type="submit" class="social-icon telegram-icon"></button>
-            </div>
-            <a href="#">
-              <h3 class="partner-name">Alice Cuper</h3>
-              <p class="partner-info">
-                Based in LA. Fan of movies an rock music
-              </p>
-            </a>
-          </li>
-        </ul>
-        <button type="submit" class="search-button-bottom">
-          See other partners
-        </button>
-      </section>
     </div>
+    <section class="main-section container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="section-title">Meet a partner for your best holiday</h2>
+        </div>
+        <div class="col-12">
+          <div class="row justify-content-between">
+            <div class="col-12 col-md-6 order-1 col-lg-3">
+              <div class="partner-item order-1">
+                <div class="img-wrapper">
+                  <img
+                    src="./img/Profile_phoro_1.jpg"
+                    alt="profile portrait"
+                    width="120"
+                  />
+                  <button type="button" class="social-icon tv-icon"></button>
+                </div>
+                <a href="#">
+                  <h3 class="partner-name">Bradley Hunter</h3>
+                  <p class="partner-info">
+                    Based in Chicago. I love playing tennis and loud music
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 order-3 col-lg-3">
+              <div class="partner-item order-2">
+                <div class="img-wrapper">
+                  <img
+                    src="./img/Profile_phoro_3.jpg"
+                    alt="profile portrait"
+                    width="120"
+                  />
+                  <button type="submit" class="social-icon glass-icon"></button>
+                </div>
+                <a href="#">
+                  <h3 class="partner-name">Lucas Marsha</h3>
+                  <p class="partner-info">
+                    I get my inspiration from nature and objects around me. I
+                    have a passion to colours, typography and skateboards.
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 order-2 col-lg-3">
+              <div class="partner-item order-3">
+                <div class="img-wrapper">
+                  <img
+                    src="./img/Profile_phoro_2.jpg"
+                    alt="profile portrait"
+                    width="120"
+                  />
+                  <button type="submit" class="social-icon cup-icon"></button>
+                </div>
+                <a href="#">
+                  <h3 class="partner-name">Heather Walker</h3>
+                  <p class="partner-info">
+                    I'm a happy person that loves cats and climbing on
+                    mountains.
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 order-4 col-lg-3">
+              <div class="partner-item order-4">
+                <div class="img-wrapper">
+                  <img
+                    src="./img/Profile_phoro_4.jpg"
+                    alt="profile portrait"
+                    width="120"
+                  />
+                  <button
+                    type="submit"
+                    class="social-icon telegram-icon"
+                  ></button>
+                </div>
+                <a href="#">
+                  <h3 class="partner-name">Alice Cuper</h3>
+                  <p class="partner-info">
+                    Based in LA. Fan of movies an rock music
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12">
+          <button type="submit" class="search-button-bottom">
+            See other partners
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
