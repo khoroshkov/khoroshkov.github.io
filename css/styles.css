@@ -72,6 +72,8 @@ h3 {
 }    
 
 
+
+
 /* header */
 
 .header-wrapper {
@@ -166,6 +168,7 @@ h3 {
 
 .text-wrapper__subtitle {
     font-size: 72px;
+    margin-bottom: 15px;
 }
 
 .text-wrapper__title {
@@ -184,7 +187,7 @@ h3 {
 }
 
 
-/* services */
+/* services section */
 
 
 .services {
@@ -255,7 +258,8 @@ h3 {
     background-image: url("../img/icons/icon-image.svg");
 }
 
-.sirvices__item-description {
+.sirvices__item-description,
+.section-about {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -272,13 +276,11 @@ h3 {
 
 
 
+
 /* team section */
 
+
 .section-about {
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: rgb(143, 143, 143);
     text-align: center;
     margin-bottom: 90px;
 }
@@ -326,7 +328,9 @@ h3 {
 }
 
 
+
 /* hover card */
+
 
 
 .team__list-item--hovered {
@@ -351,7 +355,6 @@ h3 {
 
 .socials__item {
     display: inline-block;
-    
 }
 
 .socials__item:not(:last-child) {
@@ -384,7 +387,9 @@ h3 {
 }
 
 
+
 /* footer */
+
 
 .main-footer {
     display: flex;
@@ -392,14 +397,14 @@ h3 {
     justify-content: space-between;
     align-content: center;
     min-height: 64px;
-    margin-bottom: 60px;
     line-height: 64px;
+    padding-bottom: 40px;
     font-size: 0;
 }
 
 .main-footer::before {
     display: block;
-    width: 1200px;
+    width: 100%;
     height: 1px;
     background-color: rgb(168, 168, 168);
     content: "";
@@ -433,7 +438,7 @@ h3 {
     font-style: italic;
     color: rgb(197, 197, 197);
     border: 1px solid rgb(197, 197, 197);
-    border-right:none;
+    border-right: none;
     padding-left: 10px;
 }
 
